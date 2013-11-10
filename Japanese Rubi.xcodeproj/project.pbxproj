@@ -14,7 +14,6 @@
 		A816FE29182F56E20051C7B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A816FE28182F56E20051C7B2 /* main.m */; };
 		A816FE2D182F56E20051C7B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A816FE2C182F56E20051C7B2 /* AppDelegate.m */; };
 		A816FE30182F56E20051C7B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A816FE2E182F56E20051C7B2 /* Main.storyboard */; };
-		A816FE33182F56E20051C7B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A816FE32182F56E20051C7B2 /* ViewController.m */; };
 		A816FE35182F56E20051C7B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A816FE34182F56E20051C7B2 /* Images.xcassets */; };
 		A816FE3C182F56E20051C7B2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A816FE3B182F56E20051C7B2 /* XCTest.framework */; };
 		A816FE3D182F56E20051C7B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A816FE1C182F56E20051C7B2 /* Foundation.framework */; };
@@ -45,8 +44,6 @@
 		A816FE2B182F56E20051C7B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A816FE2C182F56E20051C7B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A816FE2F182F56E20051C7B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A816FE31182F56E20051C7B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A816FE32182F56E20051C7B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A816FE34182F56E20051C7B2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A816FE3A182F56E20051C7B2 /* Japanese RubiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Japanese RubiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A816FE3B182F56E20051C7B2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -112,11 +109,7 @@
 		A816FE22182F56E20051C7B2 /* Japanese Rubi */ = {
 			isa = PBXGroup;
 			children = (
-				A816FE2B182F56E20051C7B2 /* AppDelegate.h */,
-				A816FE2C182F56E20051C7B2 /* AppDelegate.m */,
 				A816FE2E182F56E20051C7B2 /* Main.storyboard */,
-				A816FE31182F56E20051C7B2 /* ViewController.h */,
-				A816FE32182F56E20051C7B2 /* ViewController.m */,
 				A816FE34182F56E20051C7B2 /* Images.xcassets */,
 				A816FE23182F56E20051C7B2 /* Supporting Files */,
 			);
@@ -126,6 +119,8 @@
 		A816FE23182F56E20051C7B2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A816FE2B182F56E20051C7B2 /* AppDelegate.h */,
+				A816FE2C182F56E20051C7B2 /* AppDelegate.m */,
 				A816FE24182F56E20051C7B2 /* Japanese Rubi-Info.plist */,
 				A816FE25182F56E20051C7B2 /* InfoPlist.strings */,
 				A816FE28182F56E20051C7B2 /* main.m */,
@@ -249,7 +244,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A816FE33182F56E20051C7B2 /* ViewController.m in Sources */,
 				A816FE2D182F56E20051C7B2 /* AppDelegate.m in Sources */,
 				A816FE29182F56E20051C7B2 /* main.m in Sources */,
 			);
