@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A816FE1D182F56E20051C7B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A816FE1C182F56E20051C7B2 /* Foundation.framework */; };
+		A816FE1F182F56E20051C7B2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A816FE1E182F56E20051C7B2 /* CoreGraphics.framework */; };
+		A816FE21182F56E20051C7B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A816FE20182F56E20051C7B2 /* UIKit.framework */; };
+		A816FE27182F56E20051C7B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A816FE25182F56E20051C7B2 /* InfoPlist.strings */; };
+		A816FE29182F56E20051C7B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A816FE28182F56E20051C7B2 /* main.m */; };
+		A816FE2D182F56E20051C7B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A816FE2C182F56E20051C7B2 /* AppDelegate.m */; };
+		A816FE30182F56E20051C7B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A816FE2E182F56E20051C7B2 /* Main.storyboard */; };
+		A816FE33182F56E20051C7B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A816FE32182F56E20051C7B2 /* ViewController.m */; };
+		A816FE35182F56E20051C7B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A816FE34182F56E20051C7B2 /* Images.xcassets */; };
+		A816FE3C182F56E20051C7B2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A816FE3B182F56E20051C7B2 /* XCTest.framework */; };
+		A816FE3D182F56E20051C7B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A816FE1C182F56E20051C7B2 /* Foundation.framework */; };
+		A816FE3E182F56E20051C7B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A816FE20182F56E20051C7B2 /* UIKit.framework */; };
+		A816FE46182F56E20051C7B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A816FE44182F56E20051C7B2 /* InfoPlist.strings */; };
+		A816FE48182F56E20051C7B2 /* Japanese_RubiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A816FE47182F56E20051C7B2 /* Japanese_RubiTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A816FE3F182F56E20051C7B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A816FE11182F56E20051C7B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A816FE18182F56E20051C7B2;
+			remoteInfo = "Japanese Rubi";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A816FE19182F56E20051C7B2 /* Japanese Rubi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Japanese Rubi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A816FE1C182F56E20051C7B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A816FE1E182F56E20051C7B2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A816FE20182F56E20051C7B2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A816FE24182F56E20051C7B2 /* Japanese Rubi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Japanese Rubi-Info.plist"; sourceTree = "<group>"; };
+		A816FE26182F56E20051C7B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A816FE28182F56E20051C7B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A816FE2A182F56E20051C7B2 /* Japanese Rubi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Japanese Rubi-Prefix.pch"; sourceTree = "<group>"; };
+		A816FE2B182F56E20051C7B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A816FE2C182F56E20051C7B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A816FE2F182F56E20051C7B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A816FE31182F56E20051C7B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A816FE32182F56E20051C7B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A816FE34182F56E20051C7B2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A816FE3A182F56E20051C7B2 /* Japanese RubiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Japanese RubiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A816FE3B182F56E20051C7B2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A816FE43182F56E20051C7B2 /* Japanese RubiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Japanese RubiTests-Info.plist"; sourceTree = "<group>"; };
+		A816FE45182F56E20051C7B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A816FE47182F56E20051C7B2 /* Japanese_RubiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Japanese_RubiTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A816FE16182F56E20051C7B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A816FE1F182F56E20051C7B2 /* CoreGraphics.framework in Frameworks */,
+				A816FE21182F56E20051C7B2 /* UIKit.framework in Frameworks */,
+				A816FE1D182F56E20051C7B2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A816FE37182F56E20051C7B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A816FE3C182F56E20051C7B2 /* XCTest.framework in Frameworks */,
+				A816FE3E182F56E20051C7B2 /* UIKit.framework in Frameworks */,
+				A816FE3D182F56E20051C7B2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A816FE10182F56E20051C7B2 = {
+			isa = PBXGroup;
+			children = (
+				A816FE22182F56E20051C7B2 /* Japanese Rubi */,
+				A816FE41182F56E20051C7B2 /* Japanese RubiTests */,
+				A816FE1B182F56E20051C7B2 /* Frameworks */,
+				A816FE1A182F56E20051C7B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A816FE1A182F56E20051C7B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A816FE19182F56E20051C7B2 /* Japanese Rubi.app */,
+				A816FE3A182F56E20051C7B2 /* Japanese RubiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A816FE1B182F56E20051C7B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A816FE1C182F56E20051C7B2 /* Foundation.framework */,
+				A816FE1E182F56E20051C7B2 /* CoreGraphics.framework */,
+				A816FE20182F56E20051C7B2 /* UIKit.framework */,
+				A816FE3B182F56E20051C7B2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A816FE22182F56E20051C7B2 /* Japanese Rubi */ = {
+			isa = PBXGroup;
+			children = (
+				A816FE2B182F56E20051C7B2 /* AppDelegate.h */,
+				A816FE2C182F56E20051C7B2 /* AppDelegate.m */,
+				A816FE2E182F56E20051C7B2 /* Main.storyboard */,
+				A816FE31182F56E20051C7B2 /* ViewController.h */,
+				A816FE32182F56E20051C7B2 /* ViewController.m */,
+				A816FE34182F56E20051C7B2 /* Images.xcassets */,
+				A816FE23182F56E20051C7B2 /* Supporting Files */,
+			);
+			path = "Japanese Rubi";
+			sourceTree = "<group>";
+		};
+		A816FE23182F56E20051C7B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A816FE24182F56E20051C7B2 /* Japanese Rubi-Info.plist */,
+				A816FE25182F56E20051C7B2 /* InfoPlist.strings */,
+				A816FE28182F56E20051C7B2 /* main.m */,
+				A816FE2A182F56E20051C7B2 /* Japanese Rubi-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A816FE41182F56E20051C7B2 /* Japanese RubiTests */ = {
+			isa = PBXGroup;
+			children = (
+				A816FE47182F56E20051C7B2 /* Japanese_RubiTests.m */,
+				A816FE42182F56E20051C7B2 /* Supporting Files */,
+			);
+			path = "Japanese RubiTests";
+			sourceTree = "<group>";
+		};
+		A816FE42182F56E20051C7B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A816FE43182F56E20051C7B2 /* Japanese RubiTests-Info.plist */,
+				A816FE44182F56E20051C7B2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A816FE18182F56E20051C7B2 /* Japanese Rubi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A816FE4B182F56E20051C7B2 /* Build configuration list for PBXNativeTarget "Japanese Rubi" */;
+			buildPhases = (
+				A816FE15182F56E20051C7B2 /* Sources */,
+				A816FE16182F56E20051C7B2 /* Frameworks */,
+				A816FE17182F56E20051C7B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Japanese Rubi";
+			productName = "Japanese Rubi";
+			productReference = A816FE19182F56E20051C7B2 /* Japanese Rubi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A816FE39182F56E20051C7B2 /* Japanese RubiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A816FE4E182F56E30051C7B2 /* Build configuration list for PBXNativeTarget "Japanese RubiTests" */;
+			buildPhases = (
+				A816FE36182F56E20051C7B2 /* Sources */,
+				A816FE37182F56E20051C7B2 /* Frameworks */,
+				A816FE38182F56E20051C7B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A816FE40182F56E20051C7B2 /* PBXTargetDependency */,
+			);
+			name = "Japanese RubiTests";
+			productName = "Japanese RubiTests";
+			productReference = A816FE3A182F56E20051C7B2 /* Japanese RubiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A816FE11182F56E20051C7B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Sarah Lemmon";
+				TargetAttributes = {
+					A816FE39182F56E20051C7B2 = {
+						TestTargetID = A816FE18182F56E20051C7B2;
+					};
+				};
+			};
+			buildConfigurationList = A816FE14182F56E20051C7B2 /* Build configuration list for PBXProject "Japanese Rubi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A816FE10182F56E20051C7B2;
+			productRefGroup = A816FE1A182F56E20051C7B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A816FE18182F56E20051C7B2 /* Japanese Rubi */,
+				A816FE39182F56E20051C7B2 /* Japanese RubiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A816FE17182F56E20051C7B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A816FE35182F56E20051C7B2 /* Images.xcassets in Resources */,
+				A816FE27182F56E20051C7B2 /* InfoPlist.strings in Resources */,
+				A816FE30182F56E20051C7B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A816FE38182F56E20051C7B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A816FE46182F56E20051C7B2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A816FE15182F56E20051C7B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A816FE33182F56E20051C7B2 /* ViewController.m in Sources */,
+				A816FE2D182F56E20051C7B2 /* AppDelegate.m in Sources */,
+				A816FE29182F56E20051C7B2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A816FE36182F56E20051C7B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A816FE48182F56E20051C7B2 /* Japanese_RubiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A816FE40182F56E20051C7B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A816FE18182F56E20051C7B2 /* Japanese Rubi */;
+			targetProxy = A816FE3F182F56E20051C7B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A816FE25182F56E20051C7B2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A816FE26182F56E20051C7B2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A816FE2E182F56E20051C7B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A816FE2F182F56E20051C7B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A816FE44182F56E20051C7B2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A816FE45182F56E20051C7B2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A816FE49182F56E20051C7B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A816FE4A182F56E20051C7B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A816FE4C182F56E20051C7B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Japanese Rubi/Japanese Rubi-Prefix.pch";
+				INFOPLIST_FILE = "Japanese Rubi/Japanese Rubi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A816FE4D182F56E20051C7B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Japanese Rubi/Japanese Rubi-Prefix.pch";
+				INFOPLIST_FILE = "Japanese Rubi/Japanese Rubi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A816FE4F182F56E30051C7B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Japanese Rubi.app/Japanese Rubi";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Japanese Rubi/Japanese Rubi-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Japanese RubiTests/Japanese RubiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A816FE50182F56E30051C7B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Japanese Rubi.app/Japanese Rubi";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Japanese Rubi/Japanese Rubi-Prefix.pch";
+				INFOPLIST_FILE = "Japanese RubiTests/Japanese RubiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A816FE14182F56E20051C7B2 /* Build configuration list for PBXProject "Japanese Rubi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A816FE49182F56E20051C7B2 /* Debug */,
+				A816FE4A182F56E20051C7B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A816FE4B182F56E20051C7B2 /* Build configuration list for PBXNativeTarget "Japanese Rubi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A816FE4C182F56E20051C7B2 /* Debug */,
+				A816FE4D182F56E20051C7B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A816FE4E182F56E30051C7B2 /* Build configuration list for PBXNativeTarget "Japanese RubiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A816FE4F182F56E30051C7B2 /* Debug */,
+				A816FE50182F56E30051C7B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A816FE11182F56E20051C7B2 /* Project object */;
+}
