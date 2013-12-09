@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="uzZ-fr-Fk7">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
         <!--Tab Bar Controller-->
         <scene sceneID="7od-UH-Ppn">
             <objects>
                 <tabBarController definesPresentationContext="YES" id="uzZ-fr-Fk7" sceneMemberID="viewController">
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="PYj-YF-ZDA">
                         <rect key="frame" x="129" y="330" width="163" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
@@ -35,6 +35,40 @@
                     <view key="view" contentMode="scaleToFill" id="wTF-3E-zN0">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" keyboardDismissMode="onDrag" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UPX-0K-xLK">
+                                <rect key="frame" x="20" y="20" width="280" height="490"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">あ　い　う　え　お
+a     i     u    e    o
+か　き　く　け　こ
+ka   ki   ku   ke   ko
+が　ぎ　ぐ　げ　ご
+さ　し　す　せ　そ
+ざ　じ　ず　ぜ　ぞ
+た　ち　つ　て　と
+だ　ぢ　づ　で　ど
+な　に　ぬ　ね　の
+は　ひ　ふ　へ　ほ
+ば　び　ぶ　べ　ぼ
+ぱ　ぴ　ぷ　ぺ　ぽ
+ま　み　む　め　も
+や　　　ゆ　　　よ
+ら　り　る　れ　ろ
+わ　　　　　　　ん</string>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="HiraKakuProN-W3"/>
+                                            <font key="NSOriginalFont" size="14" name="HiraKakuProN-W3"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Hiragana" id="qlb-km-tTe"/>
@@ -81,10 +115,10 @@
             </objects>
             <point key="canvasLocation" x="155" y="16"/>
         </scene>
-        <!--View Controller - Paste Article-->
+        <!--Paste View Controller - Paste Article-->
         <scene sceneID="t9a-Sa-zfz">
             <objects>
-                <viewController id="3JJ-sr-deN" sceneMemberID="viewController">
+                <viewController id="3JJ-sr-deN" customClass="PasteViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="RAU-cd-u5a"/>
                         <viewControllerLayoutGuide type="bottom" id="REl-Nw-e8i"/>
@@ -93,46 +127,43 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Article Title:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nTP-jw-fjG">
-                                <rect key="frame" x="20" y="80" width="91" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Oy1-V4-3us">
-                                <rect key="frame" x="119" y="77" width="181" height="30"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="こんにちは、お元気ですか？　わたしはレモンです。よろしくお願いします。" translatesAutoresizingMaskIntoConstraints="NO" id="r4g-jf-mCS">
+                                <rect key="frame" x="20" y="131" width="280" height="379"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KUB-oK-IgQ">
+                                <rect key="frame" x="20" y="72" width="280" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EsT-I5-Uuz">
-                                <rect key="frame" x="14" y="115" width="280" height="385"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Paste Article" id="pRB-CL-wf6">
+                        <barButtonItem key="backBarButtonItem" title="Edit" id="5gJ-bu-8Ku"/>
                         <barButtonItem key="rightBarButtonItem" title="Next" id="9Ub-1G-bvJ">
                             <connections>
-                                <segue destination="lcH-0v-9UD" kind="push" id="6rQ-Fu-f0f"/>
+                                <action selector="readArticle:" destination="3JJ-sr-deN" id="XQI-NF-9RV"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="content" destination="r4g-jf-mCS" id="DL8-Ak-L7I"/>
+                        <outlet property="titleField" destination="KUB-oK-IgQ" id="cLU-Eb-OJH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fcy-pO-p6p" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="648" y="16"/>
         </scene>
-        <!--View Controller - Practice-->
+        <!--Read View Controller - Article Title-->
         <scene sceneID="Z1z-5a-MZl">
             <objects>
-                <viewController id="lcH-0v-9UD" sceneMemberID="viewController">
+                <viewController id="lcH-0v-9UD" customClass="ReadViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bfR-NK-PM7"/>
                         <viewControllerLayoutGuide type="bottom" id="ncv-6C-8YQ"/>
@@ -140,19 +171,9 @@
                     <view key="view" contentMode="scaleToFill" id="3dD-yr-cl7">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dn0-QE-v1v">
-                                <rect key="frame" x="20" y="81" width="280" height="422"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Practice" id="HKS-pz-NeJ">
+                    <navigationItem key="navigationItem" title="Article Title" id="HKS-pz-NeJ">
                         <barButtonItem key="rightBarButtonItem" title="Settings" id="Ft0-II-E7Q">
                             <connections>
                                 <segue destination="gLv-7z-fku" kind="push" id="IXw-fw-oes"/>
@@ -162,12 +183,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z2m-rT-2Xv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1163" y="16"/>
+            <point key="canvasLocation" x="1118" y="16"/>
         </scene>
-        <!--Table View Controller - Settings-->
+        <!--Settings View Controller - Settings-->
         <scene sceneID="Fmv-Bg-Hbq">
             <objects>
-                <tableViewController id="gLv-7z-fku" sceneMemberID="viewController">
+                <tableViewController id="gLv-7z-fku" customClass="SettingsViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="UvA-Oz-H0U">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -176,7 +197,7 @@
                             <tableViewSection id="mlQ-N6-Ovm">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="VgV-Tx-yMq">
-                                        <rect key="frame" x="0.0" y="64" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="VgV-Tx-yMq" id="kdH-Pn-q0A">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -196,7 +217,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="85" id="mj2-lX-XCt">
-                                        <rect key="frame" x="0.0" y="108" width="320" height="85"/>
+                                        <rect key="frame" x="0.0" y="44" width="320" height="85"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mj2-lX-XCt" id="yDP-oP-YlA">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="84"/>

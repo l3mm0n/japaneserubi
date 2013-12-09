@@ -20,6 +20,9 @@
 		A816FE3E182F56E20051C7B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A816FE20182F56E20051C7B2 /* UIKit.framework */; };
 		A816FE46182F56E20051C7B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A816FE44182F56E20051C7B2 /* InfoPlist.strings */; };
 		A816FE48182F56E20051C7B2 /* Japanese_RubiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A816FE47182F56E20051C7B2 /* Japanese_RubiTests.m */; };
+		A88D29B1183D0CC40047F4CA /* PasteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A88D29B0183D0CC40047F4CA /* PasteViewController.m */; };
+		A88D29B5183D0CF60047F4CA /* ReadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A88D29B4183D0CF60047F4CA /* ReadViewController.m */; };
+		A88D29B8183D12C90047F4CA /* Article.m in Sources */ = {isa = PBXBuildFile; fileRef = A88D29B7183D12C90047F4CA /* Article.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,12 @@
 		A816FE43182F56E20051C7B2 /* Japanese RubiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Japanese RubiTests-Info.plist"; sourceTree = "<group>"; };
 		A816FE45182F56E20051C7B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A816FE47182F56E20051C7B2 /* Japanese_RubiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Japanese_RubiTests.m; sourceTree = "<group>"; };
+		A88D29AF183D0CC40047F4CA /* PasteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasteViewController.h; sourceTree = "<group>"; };
+		A88D29B0183D0CC40047F4CA /* PasteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasteViewController.m; sourceTree = "<group>"; };
+		A88D29B3183D0CF60047F4CA /* ReadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadViewController.h; sourceTree = "<group>"; };
+		A88D29B4183D0CF60047F4CA /* ReadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadViewController.m; sourceTree = "<group>"; };
+		A88D29B6183D12C90047F4CA /* Article.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Article.h; sourceTree = "<group>"; };
+		A88D29B7183D12C90047F4CA /* Article.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Article.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +118,9 @@
 		A816FE22182F56E20051C7B2 /* Japanese Rubi */ = {
 			isa = PBXGroup;
 			children = (
+				A88D29B9183D12D10047F4CA /* Model */,
 				A816FE2E182F56E20051C7B2 /* Main.storyboard */,
+				A88D29B2183D0CCF0047F4CA /* ViewControllers */,
 				A816FE34182F56E20051C7B2 /* Images.xcassets */,
 				A816FE23182F56E20051C7B2 /* Supporting Files */,
 			);
@@ -145,6 +156,26 @@
 				A816FE44182F56E20051C7B2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A88D29B2183D0CCF0047F4CA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A88D29AF183D0CC40047F4CA /* PasteViewController.h */,
+				A88D29B0183D0CC40047F4CA /* PasteViewController.m */,
+				A88D29B3183D0CF60047F4CA /* ReadViewController.h */,
+				A88D29B4183D0CF60047F4CA /* ReadViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A88D29B9183D12D10047F4CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A88D29B6183D12C90047F4CA /* Article.h */,
+				A88D29B7183D12C90047F4CA /* Article.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,7 +275,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A88D29B8183D12C90047F4CA /* Article.m in Sources */,
+				A88D29B1183D0CC40047F4CA /* PasteViewController.m in Sources */,
 				A816FE2D182F56E20051C7B2 /* AppDelegate.m in Sources */,
+				A88D29B5183D0CF60047F4CA /* ReadViewController.m in Sources */,
 				A816FE29182F56E20051C7B2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -454,6 +488,7 @@
 				A816FE4D182F56E20051C7B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A816FE4E182F56E30051C7B2 /* Build configuration list for PBXNativeTarget "Japanese RubiTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +497,7 @@
 				A816FE50182F56E30051C7B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
