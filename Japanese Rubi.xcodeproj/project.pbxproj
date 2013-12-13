@@ -23,6 +23,12 @@
 		A88D29B1183D0CC40047F4CA /* PasteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A88D29B0183D0CC40047F4CA /* PasteViewController.m */; };
 		A88D29B5183D0CF60047F4CA /* ReadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A88D29B4183D0CF60047F4CA /* ReadViewController.m */; };
 		A88D29B8183D12C90047F4CA /* Article.m in Sources */ = {isa = PBXBuildFile; fileRef = A88D29B7183D12C90047F4CA /* Article.m */; };
+		A8A4B80C1858B7BE000D8867 /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A4B80B1858B7BE000D8867 /* TBXML.m */; };
+		A8A4B81218596F55000D8867 /* RubiController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A4B81118596F55000D8867 /* RubiController.m */; };
+		A8A4B815185A3347000D8867 /* ReadTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A4B814185A3347000D8867 /* ReadTextView.m */; };
+		A8A4B818185A6284000D8867 /* Word.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A4B817185A6284000D8867 /* Word.m */; };
+		A8A4B81B185ABEBB000D8867 /* hiragana_chart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8A4B819185ABEBB000D8867 /* hiragana_chart.jpg */; };
+		A8A4B81C185ABEBB000D8867 /* katakana-chart.gif in Resources */ = {isa = PBXBuildFile; fileRef = A8A4B81A185ABEBB000D8867 /* katakana-chart.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +65,16 @@
 		A88D29B4183D0CF60047F4CA /* ReadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadViewController.m; sourceTree = "<group>"; };
 		A88D29B6183D12C90047F4CA /* Article.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Article.h; sourceTree = "<group>"; };
 		A88D29B7183D12C90047F4CA /* Article.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Article.m; sourceTree = "<group>"; };
+		A8A4B80A1858B7BE000D8867 /* TBXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBXML.h; sourceTree = "<group>"; };
+		A8A4B80B1858B7BE000D8867 /* TBXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBXML.m; sourceTree = "<group>"; };
+		A8A4B81018596F55000D8867 /* RubiController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RubiController.h; path = ../RubiController.h; sourceTree = "<group>"; };
+		A8A4B81118596F55000D8867 /* RubiController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RubiController.m; path = ../RubiController.m; sourceTree = "<group>"; };
+		A8A4B813185A3347000D8867 /* ReadTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadTextView.h; sourceTree = "<group>"; };
+		A8A4B814185A3347000D8867 /* ReadTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadTextView.m; sourceTree = "<group>"; };
+		A8A4B816185A6284000D8867 /* Word.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Word.h; sourceTree = "<group>"; };
+		A8A4B817185A6284000D8867 /* Word.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Word.m; sourceTree = "<group>"; };
+		A8A4B819185ABEBB000D8867 /* hiragana_chart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hiragana_chart.jpg; sourceTree = "<group>"; };
+		A8A4B81A185ABEBB000D8867 /* katakana-chart.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "katakana-chart.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +134,7 @@
 		A816FE22182F56E20051C7B2 /* Japanese Rubi */ = {
 			isa = PBXGroup;
 			children = (
+				A8A4B81D185ABEC5000D8867 /* Images */,
 				A88D29B9183D12D10047F4CA /* Model */,
 				A816FE2E182F56E20051C7B2 /* Main.storyboard */,
 				A88D29B2183D0CCF0047F4CA /* ViewControllers */,
@@ -130,6 +147,8 @@
 		A816FE23182F56E20051C7B2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A8A4B80A1858B7BE000D8867 /* TBXML.h */,
+				A8A4B80B1858B7BE000D8867 /* TBXML.m */,
 				A816FE2B182F56E20051C7B2 /* AppDelegate.h */,
 				A816FE2C182F56E20051C7B2 /* AppDelegate.m */,
 				A816FE24182F56E20051C7B2 /* Japanese Rubi-Info.plist */,
@@ -161,6 +180,8 @@
 		A88D29B2183D0CCF0047F4CA /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				A8A4B81018596F55000D8867 /* RubiController.h */,
+				A8A4B81118596F55000D8867 /* RubiController.m */,
 				A88D29AF183D0CC40047F4CA /* PasteViewController.h */,
 				A88D29B0183D0CC40047F4CA /* PasteViewController.m */,
 				A88D29B3183D0CF60047F4CA /* ReadViewController.h */,
@@ -172,10 +193,23 @@
 		A88D29B9183D12D10047F4CA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A8A4B813185A3347000D8867 /* ReadTextView.h */,
+				A8A4B814185A3347000D8867 /* ReadTextView.m */,
 				A88D29B6183D12C90047F4CA /* Article.h */,
 				A88D29B7183D12C90047F4CA /* Article.m */,
+				A8A4B816185A6284000D8867 /* Word.h */,
+				A8A4B817185A6284000D8867 /* Word.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		A8A4B81D185ABEC5000D8867 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A8A4B819185ABEBB000D8867 /* hiragana_chart.jpg */,
+				A8A4B81A185ABEBB000D8867 /* katakana-chart.gif */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,6 +289,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A816FE35182F56E20051C7B2 /* Images.xcassets in Resources */,
+				A8A4B81B185ABEBB000D8867 /* hiragana_chart.jpg in Resources */,
+				A8A4B81C185ABEBB000D8867 /* katakana-chart.gif in Resources */,
 				A816FE27182F56E20051C7B2 /* InfoPlist.strings in Resources */,
 				A816FE30182F56E20051C7B2 /* Main.storyboard in Resources */,
 			);
@@ -275,11 +311,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8A4B81218596F55000D8867 /* RubiController.m in Sources */,
 				A88D29B8183D12C90047F4CA /* Article.m in Sources */,
 				A88D29B1183D0CC40047F4CA /* PasteViewController.m in Sources */,
 				A816FE2D182F56E20051C7B2 /* AppDelegate.m in Sources */,
+				A8A4B80C1858B7BE000D8867 /* TBXML.m in Sources */,
+				A8A4B815185A3347000D8867 /* ReadTextView.m in Sources */,
 				A88D29B5183D0CF60047F4CA /* ReadViewController.m in Sources */,
 				A816FE29182F56E20051C7B2 /* main.m in Sources */,
+				A8A4B818185A6284000D8867 /* Word.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

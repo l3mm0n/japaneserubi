@@ -8,17 +8,24 @@
 
 #import "PasteViewController.h"
 #import "Article.h"
+#import "ReadViewController.h"
 
 @interface PasteViewController ()
-@property (strong, nonatomic) IBOutlet UITextView *content;
-@property (strong, nonatomic) IBOutlet UITextField *title;
+@property (weak, nonatomic) IBOutlet UITextView *content;
+@property (weak, nonatomic) IBOutlet UITextField *titleField;
 @property (strong, nonatomic) Article *article;
 @end
 
 @implementation PasteViewController
 
+//this was needed because iOS was trying to push everything down
+//because of the status bar and the navigation bar
+- (BOOL) automaticallyAdjustsScrollViewInsets {
+    return NO;
+}
+
 #pragma mark - Actions
-- (IBAction)readArticle:(UIBarButtonItem *)sender {
+- (void) readArticle {
     
     //Verify the content is valid
     if ([self.content text] == nil || [[self.content text] length] <= 0) {
@@ -30,11 +37,11 @@
     
     //save the title and the content
     self.article = [[Article alloc] init];
-    [self.article setTitle:[self.title text]];
+    [self.article setTitle:[self.titleField text]];
     [self.article setContent:[self.content text]];
     
     //set the API call for the Rubi
-    [self.article getRubi];
+    [self.article getRubi]; //this saves the XML rubi output to the article file
     
 }
 
@@ -49,6 +56,14 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - Transition
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    [self readArticle];
+    ReadViewController *read = (ReadViewController *)segue.destinationViewController;
+    read.article = self.article; //pass the article object to the next view
 }
 
 @end

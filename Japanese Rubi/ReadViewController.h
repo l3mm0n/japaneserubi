@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Article.h"
 
 @interface ReadViewController : UIViewController
 
+@property (strong, nonatomic) Article *article;
 
 @end

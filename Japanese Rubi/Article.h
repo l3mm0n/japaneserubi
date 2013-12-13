@@ -7,12 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "TBXML.h"
 
 @interface Article : NSObject
 
 @property (strong, nonatomic) NSString *content;
 @property (strong, nonatomic) NSString *title;
+@property (strong, nonatomic) NSMutableArray *words;
 
--(NSString *)getRubi;
+-(void)getRubi;
+-(NSString *)lookupRubi:(NSString *)lookupString;
+-(NSString *)lookupRoman:(NSString *)lookupString;
 
 @end
