@@ -43,7 +43,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Hiragana" id="qlb-km-tTe"/>
+                    <tabBarItem key="tabBarItem" title="Hiragana" image="hiragana-a.jpg" id="qlb-km-tTe"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y4G-qS-9FV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -68,7 +68,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Katakana" id="Mqk-iv-PPy"/>
+                    <tabBarItem key="tabBarItem" title="Katakana" image="katakana-a.jpg" id="Mqk-iv-PPy"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xny-sJ-aFv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -78,7 +78,7 @@
         <scene sceneID="8Di-zG-k0H">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="BNs-c9-0QB" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Rubi Practice" id="wa1-8M-bNM"/>
+                    <tabBarItem key="tabBarItem" title="Rubi Practice" image="kanjia.jpg" id="wa1-8M-bNM"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="dOz-Ga-q1Q">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -264,7 +264,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="hiragana-a.jpg" width="44" height="44"/>
         <image name="hiragana_chart.jpg" width="880" height="1340"/>
+        <image name="kanjia.jpg" width="44" height="44"/>
+        <image name="katakana-a.jpg" width="44" height="44"/>
         <image name="katakana-chart.gif" width="500" height="652"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

@@ -60,7 +60,13 @@
 #pragma mark - Controller Lifecycle
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationItem.title = [self.article title];
+    
+    if ([self.article title]) {
+        self.navigationItem.title = [self.article title];
+    } else {
+        self.navigationItem.title = @"Read";
+    }
+    
     self.content.text = [self.article content];
     
     //preload the Rubi Menu Item to the sharedMenuController
