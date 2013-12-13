@@ -32,6 +32,9 @@
 		A8A4B82B185ACD2E000D8867 /* rubi.png in Resources */ = {isa = PBXBuildFile; fileRef = A8A4B829185ACD2E000D8867 /* rubi.png */; };
 		A8A4B82E185ACEE7000D8867 /* rubi-58.png in Resources */ = {isa = PBXBuildFile; fileRef = A8A4B82C185ACEE7000D8867 /* rubi-58.png */; };
 		A8A4B82F185ACEE7000D8867 /* rubi-80.png in Resources */ = {isa = PBXBuildFile; fileRef = A8A4B82D185ACEE7000D8867 /* rubi-80.png */; };
+		A8A4B834185AD4AB000D8867 /* hiragana.png in Resources */ = {isa = PBXBuildFile; fileRef = A8A4B832185AD4AB000D8867 /* hiragana.png */; };
+		A8A4B835185AD4AB000D8867 /* katakana.png in Resources */ = {isa = PBXBuildFile; fileRef = A8A4B833185AD4AB000D8867 /* katakana.png */; };
+		A8A4B837185AD69D000D8867 /* kanji.png in Resources */ = {isa = PBXBuildFile; fileRef = A8A4B836185AD69D000D8867 /* kanji.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +84,9 @@
 		A8A4B829185ACD2E000D8867 /* rubi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rubi.png; sourceTree = "<group>"; };
 		A8A4B82C185ACEE7000D8867 /* rubi-58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rubi-58.png"; sourceTree = "<group>"; };
 		A8A4B82D185ACEE7000D8867 /* rubi-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rubi-80.png"; sourceTree = "<group>"; };
+		A8A4B832185AD4AB000D8867 /* hiragana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiragana.png; sourceTree = "<group>"; };
+		A8A4B833185AD4AB000D8867 /* katakana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = katakana.png; sourceTree = "<group>"; };
+		A8A4B836185AD69D000D8867 /* kanji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kanji.png; path = ../kanji.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +218,9 @@
 		A8A4B81D185ABEC5000D8867 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				A8A4B836185AD69D000D8867 /* kanji.png */,
+				A8A4B832185AD4AB000D8867 /* hiragana.png */,
+				A8A4B833185AD4AB000D8867 /* katakana.png */,
 				A8A4B82C185ACEE7000D8867 /* rubi-58.png */,
 				A8A4B82D185ACEE7000D8867 /* rubi-80.png */,
 				A8A4B829185ACD2E000D8867 /* rubi.png */,
@@ -298,13 +307,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8A4B82B185ACD2E000D8867 /* rubi.png in Resources */,
+				A8A4B834185AD4AB000D8867 /* hiragana.png in Resources */,
 				A816FE35182F56E20051C7B2 /* Images.xcassets in Resources */,
 				A8A4B81B185ABEBB000D8867 /* hiragana_chart.jpg in Resources */,
+				A8A4B837185AD69D000D8867 /* kanji.png in Resources */,
 				A8A4B82F185ACEE7000D8867 /* rubi-80.png in Resources */,
 				A8A4B81C185ABEBB000D8867 /* katakana-chart.gif in Resources */,
 				A816FE27182F56E20051C7B2 /* InfoPlist.strings in Resources */,
 				A816FE30182F56E20051C7B2 /* Main.storyboard in Resources */,
 				A8A4B82E185ACEE7000D8867 /* rubi-58.png in Resources */,
+				A8A4B835185AD4AB000D8867 /* katakana.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

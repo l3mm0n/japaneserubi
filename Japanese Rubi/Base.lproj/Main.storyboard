@@ -43,7 +43,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Hiragana" image="hiragana-a.jpg" id="qlb-km-tTe"/>
+                    <tabBarItem key="tabBarItem" title="Hiragana" image="hiragana.png" id="qlb-km-tTe"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y4G-qS-9FV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -68,7 +68,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Katakana" image="katakana-a.jpg" id="Mqk-iv-PPy"/>
+                    <tabBarItem key="tabBarItem" title="Katakana" image="katakana.png" id="Mqk-iv-PPy"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xny-sJ-aFv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -78,7 +78,7 @@
         <scene sceneID="8Di-zG-k0H">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="BNs-c9-0QB" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Rubi Practice" image="kanjia.jpg" id="wa1-8M-bNM"/>
+                    <tabBarItem key="tabBarItem" title="Rubi Practice" image="kanji.png" id="wa1-8M-bNM"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="dOz-Ga-q1Q">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -105,10 +105,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="こんにちは、お元気ですか？　わたしはレモンです。よろしくお願いします。" translatesAutoresizingMaskIntoConstraints="NO" id="r4g-jf-mCS">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r4g-jf-mCS">
                                 <rect key="frame" x="20" y="131" width="280" height="379"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">こんにちは、お元気ですか？　わたしはレモンです。よろしくお願いします。
+
+ちょっとだけ日本で暮らしました。日本語をしゃべれるけど読めません。</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -264,11 +267,11 @@
         </scene>
     </scenes>
     <resources>
-        <image name="hiragana-a.jpg" width="44" height="44"/>
+        <image name="hiragana.png" width="29" height="30"/>
         <image name="hiragana_chart.jpg" width="880" height="1340"/>
-        <image name="kanjia.jpg" width="44" height="44"/>
-        <image name="katakana-a.jpg" width="44" height="44"/>
+        <image name="kanji.png" width="29" height="30"/>
         <image name="katakana-chart.gif" width="500" height="652"/>
+        <image name="katakana.png" width="29" height="30"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
