@@ -65,6 +65,9 @@
 		A816FE43182F56E20051C7B2 /* Project Lemmon Sarah Japanese RubiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Project Lemmon Sarah Japanese RubiTests-Info.plist"; sourceTree = "<group>"; };
 		A816FE45182F56E20051C7B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A816FE47182F56E20051C7B2 /* Japanese_RubiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Japanese_RubiTests.m; sourceTree = "<group>"; };
+		A868543C18E763CD00EBB108 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		A868543D18E763CD00EBB108 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A868543E18E763CD00EBB108 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A88D29AF183D0CC40047F4CA /* PasteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasteViewController.h; sourceTree = "<group>"; };
 		A88D29B0183D0CC40047F4CA /* PasteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasteViewController.m; sourceTree = "<group>"; };
 		A88D29B3183D0CF60047F4CA /* ReadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadViewController.h; sourceTree = "<group>"; };
@@ -289,6 +292,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = A816FE10182F56E20051C7B2;
 			productRefGroup = A816FE1A182F56E20051C7B2 /* Products */;
@@ -370,6 +374,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				A816FE26182F56E20051C7B2 /* en */,
+				A868543D18E763CD00EBB108 /* ja */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -378,6 +383,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				A816FE2F182F56E20051C7B2 /* Base */,
+				A868543C18E763CD00EBB108 /* ja */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -386,6 +392,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				A816FE45182F56E20051C7B2 /* en */,
+				A868543E18E763CD00EBB108 /* ja */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";

@@ -1,0 +1,51 @@
+
+/* Class = "IBUIBarButtonItem"; title = "Edit"; ObjectID = "5gJ-bu-8Ku"; */
+"5gJ-bu-8Ku.title" = "エディット";
+
+/* Class = "IBUIBarButtonItem"; title = "Read"; ObjectID = "9Ub-1G-bvJ"; */
+"9Ub-1G-bvJ.title" = "読む";
+
+/* Class = "IBUISegmentedControl"; ESt-ui-da0.segmentTitles[0] = "Romanji"; ObjectID = "ESt-ui-da0"; */
+"ESt-ui-da0.segmentTitles[0]" = "ローマ字";
+
+/* Class = "IBUISegmentedControl"; ESt-ui-da0.segmentTitles[1] = "Katakana"; ObjectID = "ESt-ui-da0"; */
+"ESt-ui-da0.segmentTitles[1]" = "カタカナ";
+
+/* Class = "IBUISegmentedControl"; ESt-ui-da0.segmentTitles[2] = "Hiragana"; ObjectID = "ESt-ui-da0"; */
+"ESt-ui-da0.segmentTitles[2]" = "ひらがな";
+
+/* Class = "IBUINavigationItem"; title = "Title"; ObjectID = "HKS-pz-NeJ"; */
+"HKS-pz-NeJ.title" = "タイトル";
+
+/* Class = "IBUILabel"; text = "Pronunciation:"; ObjectID = "HbK-tO-hZS"; */
+"HbK-tO-hZS.text" = "発揚:";
+
+/* Class = "IBUINavigationItem"; title = "Settings"; ObjectID = "JZQ-y8-2ke"; */
+"JZQ-y8-2ke.title" = "設定";
+
+/* Class = "IBUITextField"; placeholder = "Title"; ObjectID = "KUB-oK-IgQ"; */
+"KUB-oK-IgQ.placeholder" = "タイトル";
+
+/* Class = "IBUILabel"; text = "Show furigana in"; ObjectID = "La9-bO-Dkg"; */
+"La9-bO-Dkg.text" = "どうやって　ふりがなを　よみますか？";
+
+/* Class = "IBUITextView"; text = "Hello, my name is Sarah"; ObjectID = "MKV-bY-nJg"; */
+"MKV-bY-nJg.text" = "エローラ";
+
+/* Class = "IBUITabBarItem"; title = "Katakana"; ObjectID = "Mqk-iv-PPy"; */
+"Mqk-iv-PPy.title" = "カタカナ";
+
+/* Class = "IBUILabel"; text = "Text Size"; ObjectID = "kaw-TR-qnr"; */
+"kaw-TR-qnr.text" = "テキストサイズ";
+
+/* Class = "IBUINavigationItem"; title = "Paste"; ObjectID = "pRB-CL-wf6"; */
+"pRB-CL-wf6.title" = "ペースト";
+
+/* Class = "IBUITabBarItem"; title = "Hiragana"; ObjectID = "qlb-km-tTe"; */
+"qlb-km-tTe.title" = "ひらがな";
+
+/* Class = "IBUITextView"; text = "こんにちは、お元気ですか？　わたしはレモンです。よろしくお願いします。\n\nちょっとだけ日本で暮らしました。日本語をしゃべれるけど読めません。"; ObjectID = "r4g-jf-mCS"; */
+"r4g-jf-mCS.text" = "こんにちは、お元気ですか？　わたしはレモンです。よろしくお願いします。\n\nちょっとだけ日本で暮らしました。日本語をしゃべれるけど読めません。";
+
+/* Class = "IBUITabBarItem"; title = "Rubi Practice"; ObjectID = "wa1-8M-bNM"; */
+"wa1-8M-bNM.title" = "ルビ　練習";
