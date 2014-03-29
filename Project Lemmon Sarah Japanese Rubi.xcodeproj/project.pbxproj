@@ -48,21 +48,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A816FE19182F56E20051C7B2 /* Japanese Rubi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Japanese Rubi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A816FE19182F56E20051C7B2 /* Project Lemmon Sarah Japanese Rubi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project Lemmon Sarah Japanese Rubi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A816FE1C182F56E20051C7B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A816FE1E182F56E20051C7B2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		A816FE20182F56E20051C7B2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		A816FE24182F56E20051C7B2 /* Japanese Rubi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Japanese Rubi-Info.plist"; sourceTree = "<group>"; };
+		A816FE24182F56E20051C7B2 /* Project Lemmon Sarah Japanese Rubi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Project Lemmon Sarah Japanese Rubi-Info.plist"; sourceTree = "<group>"; };
 		A816FE26182F56E20051C7B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A816FE28182F56E20051C7B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A816FE2A182F56E20051C7B2 /* Japanese Rubi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Japanese Rubi-Prefix.pch"; sourceTree = "<group>"; };
+		A816FE2A182F56E20051C7B2 /* Project Lemmon Sarah Japanese Rubi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Project Lemmon Sarah Japanese Rubi-Prefix.pch"; sourceTree = "<group>"; };
 		A816FE2B182F56E20051C7B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A816FE2C182F56E20051C7B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A816FE2F182F56E20051C7B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A816FE34182F56E20051C7B2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		A816FE3A182F56E20051C7B2 /* Japanese RubiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Japanese RubiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A816FE3A182F56E20051C7B2 /* Project Lemmon Sarah Japanese RubiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project Lemmon Sarah Japanese RubiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A816FE3B182F56E20051C7B2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		A816FE43182F56E20051C7B2 /* Japanese RubiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Japanese RubiTests-Info.plist"; sourceTree = "<group>"; };
+		A816FE43182F56E20051C7B2 /* Project Lemmon Sarah Japanese RubiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Project Lemmon Sarah Japanese RubiTests-Info.plist"; sourceTree = "<group>"; };
 		A816FE45182F56E20051C7B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A816FE47182F56E20051C7B2 /* Japanese_RubiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Japanese_RubiTests.m; sourceTree = "<group>"; };
 		A88D29AF183D0CC40047F4CA /* PasteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasteViewController.h; sourceTree = "<group>"; };
@@ -126,8 +126,8 @@
 		A816FE1A182F56E20051C7B2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A816FE19182F56E20051C7B2 /* Japanese Rubi.app */,
-				A816FE3A182F56E20051C7B2 /* Japanese RubiTests.xctest */,
+				A816FE19182F56E20051C7B2 /* Project Lemmon Sarah Japanese Rubi.app */,
+				A816FE3A182F56E20051C7B2 /* Project Lemmon Sarah Japanese RubiTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -163,10 +163,10 @@
 				A8A4B80B1858B7BE000D8867 /* TBXML.m */,
 				A816FE2B182F56E20051C7B2 /* AppDelegate.h */,
 				A816FE2C182F56E20051C7B2 /* AppDelegate.m */,
-				A816FE24182F56E20051C7B2 /* Japanese Rubi-Info.plist */,
+				A816FE24182F56E20051C7B2 /* Project Lemmon Sarah Japanese Rubi-Info.plist */,
 				A816FE25182F56E20051C7B2 /* InfoPlist.strings */,
 				A816FE28182F56E20051C7B2 /* main.m */,
-				A816FE2A182F56E20051C7B2 /* Japanese Rubi-Prefix.pch */,
+				A816FE2A182F56E20051C7B2 /* Project Lemmon Sarah Japanese Rubi-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -183,7 +183,7 @@
 		A816FE42182F56E20051C7B2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A816FE43182F56E20051C7B2 /* Japanese RubiTests-Info.plist */,
+				A816FE43182F56E20051C7B2 /* Project Lemmon Sarah Japanese RubiTests-Info.plist */,
 				A816FE44182F56E20051C7B2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -233,9 +233,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A816FE18182F56E20051C7B2 /* Japanese Rubi */ = {
+		A816FE18182F56E20051C7B2 /* Project Lemmon Sarah Japanese Rubi */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A816FE4B182F56E20051C7B2 /* Build configuration list for PBXNativeTarget "Japanese Rubi" */;
+			buildConfigurationList = A816FE4B182F56E20051C7B2 /* Build configuration list for PBXNativeTarget "Project Lemmon Sarah Japanese Rubi" */;
 			buildPhases = (
 				A816FE15182F56E20051C7B2 /* Sources */,
 				A816FE16182F56E20051C7B2 /* Frameworks */,
@@ -245,14 +245,14 @@
 			);
 			dependencies = (
 			);
-			name = "Japanese Rubi";
+			name = "Project Lemmon Sarah Japanese Rubi";
 			productName = "Japanese Rubi";
-			productReference = A816FE19182F56E20051C7B2 /* Japanese Rubi.app */;
+			productReference = A816FE19182F56E20051C7B2 /* Project Lemmon Sarah Japanese Rubi.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A816FE39182F56E20051C7B2 /* Japanese RubiTests */ = {
+		A816FE39182F56E20051C7B2 /* Project Lemmon Sarah Japanese RubiTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A816FE4E182F56E30051C7B2 /* Build configuration list for PBXNativeTarget "Japanese RubiTests" */;
+			buildConfigurationList = A816FE4E182F56E30051C7B2 /* Build configuration list for PBXNativeTarget "Project Lemmon Sarah Japanese RubiTests" */;
 			buildPhases = (
 				A816FE36182F56E20051C7B2 /* Sources */,
 				A816FE37182F56E20051C7B2 /* Frameworks */,
@@ -263,9 +263,9 @@
 			dependencies = (
 				A816FE40182F56E20051C7B2 /* PBXTargetDependency */,
 			);
-			name = "Japanese RubiTests";
+			name = "Project Lemmon Sarah Japanese RubiTests";
 			productName = "Japanese RubiTests";
-			productReference = A816FE3A182F56E20051C7B2 /* Japanese RubiTests.xctest */;
+			productReference = A816FE3A182F56E20051C7B2 /* Project Lemmon Sarah Japanese RubiTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -282,7 +282,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A816FE14182F56E20051C7B2 /* Build configuration list for PBXProject "Japanese Rubi" */;
+			buildConfigurationList = A816FE14182F56E20051C7B2 /* Build configuration list for PBXProject "Project Lemmon Sarah Japanese Rubi" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -295,8 +295,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A816FE18182F56E20051C7B2 /* Japanese Rubi */,
-				A816FE39182F56E20051C7B2 /* Japanese RubiTests */,
+				A816FE18182F56E20051C7B2 /* Project Lemmon Sarah Japanese Rubi */,
+				A816FE39182F56E20051C7B2 /* Project Lemmon Sarah Japanese RubiTests */,
 			);
 		};
 /* End PBXProject section */
@@ -360,7 +360,7 @@
 /* Begin PBXTargetDependency section */
 		A816FE40182F56E20051C7B2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A816FE18182F56E20051C7B2 /* Japanese Rubi */;
+			target = A816FE18182F56E20051C7B2 /* Project Lemmon Sarah Japanese Rubi */;
 			targetProxy = A816FE3F182F56E20051C7B2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -471,9 +471,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Japanese Rubi/Japanese Rubi-Prefix.pch";
-				INFOPLIST_FILE = "Japanese Rubi/Japanese Rubi-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Japanese Rubi/Project Lemmon Sarah Japanese Rubi-Prefix.pch";
+				INFOPLIST_FILE = "Japanese Rubi/Project Lemmon Sarah Japanese Rubi-Info.plist";
+				PRODUCT_NAME = "Project Lemmon Sarah Japanese Rubi";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -484,9 +484,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Japanese Rubi/Japanese Rubi-Prefix.pch";
-				INFOPLIST_FILE = "Japanese Rubi/Japanese Rubi-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Japanese Rubi/Project Lemmon Sarah Japanese Rubi-Prefix.pch";
+				INFOPLIST_FILE = "Japanese Rubi/Project Lemmon Sarah Japanese Rubi-Info.plist";
+				PRODUCT_NAME = "Project Lemmon Sarah Japanese Rubi";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -507,8 +507,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Japanese RubiTests/Japanese RubiTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "Japanese RubiTests/Project Lemmon Sarah Japanese RubiTests-Info.plist";
+				PRODUCT_NAME = "Project Lemmon Sarah Japanese RubiTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -526,8 +526,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Japanese Rubi/Japanese Rubi-Prefix.pch";
-				INFOPLIST_FILE = "Japanese RubiTests/Japanese RubiTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "Japanese RubiTests/Project Lemmon Sarah Japanese RubiTests-Info.plist";
+				PRODUCT_NAME = "Project Lemmon Sarah Japanese RubiTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -536,7 +536,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A816FE14182F56E20051C7B2 /* Build configuration list for PBXProject "Japanese Rubi" */ = {
+		A816FE14182F56E20051C7B2 /* Build configuration list for PBXProject "Project Lemmon Sarah Japanese Rubi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A816FE49182F56E20051C7B2 /* Debug */,
@@ -545,7 +545,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A816FE4B182F56E20051C7B2 /* Build configuration list for PBXNativeTarget "Japanese Rubi" */ = {
+		A816FE4B182F56E20051C7B2 /* Build configuration list for PBXNativeTarget "Project Lemmon Sarah Japanese Rubi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A816FE4C182F56E20051C7B2 /* Debug */,
@@ -554,7 +554,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A816FE4E182F56E30051C7B2 /* Build configuration list for PBXNativeTarget "Japanese RubiTests" */ = {
+		A816FE4E182F56E30051C7B2 /* Build configuration list for PBXNativeTarget "Project Lemmon Sarah Japanese RubiTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A816FE4F182F56E30051C7B2 /* Debug */,
