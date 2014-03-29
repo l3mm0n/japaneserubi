@@ -279,11 +279,6 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Sarah Lemmon";
-				TargetAttributes = {
-					A816FE39182F56E20051C7B2 = {
-						TestTargetID = A816FE18182F56E20051C7B2;
-					};
-				};
 			};
 			buildConfigurationList = A816FE14182F56E20051C7B2 /* Build configuration list for PBXProject "Project Lemmon Sarah Japanese Rubi" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -502,7 +497,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Japanese Rubi.app/Japanese Rubi";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -516,7 +510,6 @@
 				);
 				INFOPLIST_FILE = "Japanese RubiTests/Project Lemmon Sarah Japanese RubiTests-Info.plist";
 				PRODUCT_NAME = "Project Lemmon Sarah Japanese RubiTests";
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -525,7 +518,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Japanese Rubi.app/Japanese Rubi";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -535,7 +527,6 @@
 				GCC_PREFIX_HEADER = "Japanese Rubi/Japanese Rubi-Prefix.pch";
 				INFOPLIST_FILE = "Japanese RubiTests/Project Lemmon Sarah Japanese RubiTests-Info.plist";
 				PRODUCT_NAME = "Project Lemmon Sarah Japanese RubiTests";
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
