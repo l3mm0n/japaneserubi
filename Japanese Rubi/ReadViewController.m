@@ -70,8 +70,8 @@
     self.content.text = [self.article content];
     
     //preload the Rubi Menu Item to the sharedMenuController
-    UIMenuItem *menuRubi = [[UIMenuItem alloc] initWithTitle:@"Rubi" action:@selector(rubi:)];
-    UIMenuItem *menuRoman = [[UIMenuItem alloc] initWithTitle:@"Romanji" action:@selector(roman:)];
+    UIMenuItem *menuRubi = [[UIMenuItem alloc] initWithTitle:NSLocalizedString(@"Rubi", @"Rubi") action:@selector(rubi:)];
+    UIMenuItem *menuRoman = [[UIMenuItem alloc] initWithTitle:NSLocalizedString(@"Romanji", @"Romanji") action:@selector(roman:)];
     NSArray *menuItems = [[NSArray alloc] initWithObjects:menuRubi, menuRoman, nil];
     [[UIMenuController sharedMenuController] setMenuItems:menuItems];
 }

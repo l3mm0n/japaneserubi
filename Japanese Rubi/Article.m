@@ -135,7 +135,7 @@
         }
     }
     
-    return @"(no rubi found)";
+    return NSLocalizedString(@"(no rubi found)", nil);
 }
 
 //returns the romanji for the input, if available
@@ -154,7 +154,7 @@
         }
     }
     
-    return @"(no romanji found)";
+    return NSLocalizedString(@"(no romanji found)",nil);
     
 }
 

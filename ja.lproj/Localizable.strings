@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  Project Lemmon Sarah Japanese Rubi
+
+  Created by Sarah Lemmon on 4/11/14.
+  Copyright (c) 2014 Sarah Lemmon. All rights reserved.
+*/
+
+"(no rubi found)" = "ルビがありません";
+"Rubi" = "ルビ";
+"Romanji" = "ローマ字";
