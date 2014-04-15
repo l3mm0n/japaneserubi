@@ -20,6 +20,7 @@
 		A816FE3E182F56E20051C7B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A816FE20182F56E20051C7B2 /* UIKit.framework */; };
 		A816FE46182F56E20051C7B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A816FE44182F56E20051C7B2 /* InfoPlist.strings */; };
 		A816FE48182F56E20051C7B2 /* Japanese_RubiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A816FE47182F56E20051C7B2 /* Japanese_RubiTests.m */; };
+		A868544318F888D300EBB108 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A868544518F888D300EBB108 /* Localizable.strings */; };
 		A88D29B1183D0CC40047F4CA /* PasteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A88D29B0183D0CC40047F4CA /* PasteViewController.m */; };
 		A88D29B5183D0CF60047F4CA /* ReadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A88D29B4183D0CF60047F4CA /* ReadViewController.m */; };
 		A88D29B8183D12C90047F4CA /* Article.m in Sources */ = {isa = PBXBuildFile; fileRef = A88D29B7183D12C90047F4CA /* Article.m */; };
@@ -68,6 +69,9 @@
 		A868543C18E763CD00EBB108 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
 		A868543D18E763CD00EBB108 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A868543E18E763CD00EBB108 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A868544418F888D300EBB108 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A868544618F888D700EBB108 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A868544718F888D900EBB108 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A88D29AF183D0CC40047F4CA /* PasteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasteViewController.h; sourceTree = "<group>"; };
 		A88D29B0183D0CC40047F4CA /* PasteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasteViewController.m; sourceTree = "<group>"; };
 		A88D29B3183D0CF60047F4CA /* ReadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadViewController.h; sourceTree = "<group>"; };
@@ -162,6 +166,7 @@
 		A816FE23182F56E20051C7B2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A868544518F888D300EBB108 /* Localizable.strings */,
 				A8A4B80A1858B7BE000D8867 /* TBXML.h */,
 				A8A4B80B1858B7BE000D8867 /* TBXML.m */,
 				A816FE2B182F56E20051C7B2 /* AppDelegate.h */,
@@ -306,6 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8A4B82B185ACD2E000D8867 /* rubi.png in Resources */,
+				A868544318F888D300EBB108 /* Localizable.strings in Resources */,
 				A8A4B834185AD4AB000D8867 /* hiragana.png in Resources */,
 				A816FE35182F56E20051C7B2 /* Images.xcassets in Resources */,
 				A8A4B81B185ABEBB000D8867 /* hiragana_chart.jpg in Resources */,
@@ -390,6 +396,17 @@
 				A868543E18E763CD00EBB108 /* ja */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A868544518F888D300EBB108 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A868544418F888D300EBB108 /* Base */,
+				A868544618F888D700EBB108 /* en */,
+				A868544718F888D900EBB108 /* ja */,
+			);
+			name = Localizable.strings;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
